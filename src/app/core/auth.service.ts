@@ -1,9 +1,9 @@
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, map, of, throwError } from 'rxjs';
-import { UserModel, UserRspModel } from '../@data/user.model';
+import { UserModel, UserRspModel } from '../data/user.model';
 import { HttpClient } from '@angular/common/http';
 import { API } from './constant';
-import { BaseModel } from '../@data/base.model';
+import { BaseModel } from '../data/base.model';
 
 @Injectable({
   providedIn: 'root',
